@@ -119,36 +119,3 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
 
    ![alt text](img-2.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-3. **Instalar PostgreSQL no Servidor:**
-   
-   - Agora iremos rodar os scripts que coloquei na primeira pasta
-
-4. **Configurar o PostgreSQL:**
-   - Inicie o serviço PostgreSQL:
-     ```bash
-     sudo systemctl start postgresql
-     ```
-   - Configure o PostgreSQL para aceitar conexões remotas, se necessário.
-
-5. **Conectar ao Banco de Dados via DBeaver:**
-   - Instale e configure o DBeaver.
-   - Adicione uma nova conexão PostgreSQL usando o endereço público da instância EC2 e as credenciais configuradas.
-
-## Considerações
-- Certifique-se de proteger o servidor configurando corretamente as regras de firewall e utilizando autenticação segura.
-- Use snapshots da instância para backup do banco de dados.
-
-## Licença
-Este projeto está licenciado sob a [MIT License](LICENSE).
