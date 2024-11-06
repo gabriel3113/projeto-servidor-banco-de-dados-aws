@@ -14,25 +14,25 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
    - Pesquiser por EC2.
 
 
-   - ![alt text](img\image_5.png)
+   
 
    -Após isso clique em instâncias.
 
-   ![alt text](img\image6.png)
+   
 
 
    - Crie uma nova instância EC2 clicando em executar.
 
 
-   ![alt text](img\image_7.png)
+   
 
 
    - Os principais detalhes são selecionar uma maquina Ubunto , um tipo de instancia , e a criação de uma chave privada do tipo .ppk
+
    
-   ![alt text](img\image.png)
-   ![alt text](img\image_2.png)
-   ![alt text](img\image_3.png)
    - Ao criar a chave, o download dela e feito automaticamente 
+
+   
    - Um detalhe importante é permitir o tráfego SSH de qualquer origem, considerando que este projeto é voltado para fins de estudo 
    ![alt text](img\image_4.png)
    - Agora clique em executar a instância
