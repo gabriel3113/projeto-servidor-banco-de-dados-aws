@@ -74,20 +74,52 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
    ![alt text](image-16.png)
 
 
-   - Configure PuTTY para conectar à instância EC2 utilizando o arquivo PPK.
+   - Agora para podermos configurar o putty iremos pegar algumas informações o servidor de dns público , o usuario que é ubunto e a chave de acesso que foi baixada no seu computador durante este processo também será necessária.
+
+   ![alt text](image-20.png)
+
+
+   ![alt text](image-18.png)
+
+
+   ![alt text](image-19.png)
+
+
 
    
-   - Acesse a instância via SSH.
+   - Após este processo iremos iniciar a conexão que ira abrir um prompt como este .
+
+   ![alt text](image-21.png)
+
+   - Após rodar estes codigos no prompt iremos criar um tunnel de SSH e nosso banco não ficar exposto na internet 
+
+   - Você ira adicionar está etapa a conexão que ja tinha feito antes com o tunnel criado iremos para o dbeaver
+
+   ![alt text](image-23.png)
+
+   - com o dbeaver aberto iremos adicionar o banco de dados aos acessos dele 
+
+   ![alt text](image-24.png)
+
+   - Após a conexão ele vai estar assim : 
+
+   ![alt text](image-25.png)
+
+   - nesta parte iremos criar um script sql para criamos as tabelas 
+
+   ![alt text](image-26.png)
+
+   
+
+
+
+
+
+
 
 3. **Instalar PostgreSQL no Servidor:**
-   - Atualize os pacotes do sistema:
-     ```bash
-     sudo apt update && sudo apt upgrade
-     ```
-   - Instale o PostgreSQL:
-     ```bash
-     sudo apt install postgresql postgresql-contrib
-     ```
+   
+   - Agora iremos rodar os scripts que coloquei na primeira pasta
 
 4. **Configurar o PostgreSQL:**
    - Inicie o serviço PostgreSQL:

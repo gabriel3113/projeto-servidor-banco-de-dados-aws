@@ -1,0 +1,13 @@
+atualizar essa maquina:
+sudo apt-get update
+
+instalando o bd
+sudo apt install postgresql postgresql-contrib
+
+comando para que o postgresql ja esteja rodando na maquina 
+sudo -u postgres psql
+
+
+psql criar um usuário e dar a ele as permissões necessárias
+CREATE USER admin WITH PASSWORD 'admin';
+ALTER USER admin WITH SUPERUSER;
