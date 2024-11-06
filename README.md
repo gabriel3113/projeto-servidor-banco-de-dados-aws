@@ -11,34 +11,72 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
 ## Como Configurar
 1. **Provisionar Instância EC2:**
    - Acesse o AWS Management Console.
+
+   ![alt text](image.png)
+
+
    - Pesquiser por EC2.
 
+   ![alt text](image-1.png)
 
-   
 
-   -Após isso clique em instâncias.
+   - Após isso clique em instâncias.
 
-   
+   ![alt text](image-2.png)
 
 
    - Crie uma nova instância EC2 clicando em executar.
 
+   ![alt text](image-3.png)
 
-   
+
+   - De um nome a sua instância
+
+   ![alt text](image-4.png)
+
+   - Você deve escolher um sistema operacional para a instância no caso irei escolher o ubunto porque e além disso escolher um tipo de instância no caso irei escolher a t2.micro que é gratuita
+
+   ![alt text](image-5.png)
 
 
-   - Os principais detalhes são selecionar uma maquina Ubunto , um tipo de instancia , e a criação de uma chave privada do tipo .ppk
+   ![alt text](image-6.png)
 
-   
-   - Ao criar a chave, o download dela e feito automaticamente 
 
-   
-   - Um detalhe importante é permitir o tráfego SSH de qualquer origem, considerando que este projeto é voltado para fins de estudo 
-   ![alt text](img\image_4.png)
+   - Após isso você deve criar uma par de chaves de login você deve dar um nome para elas , além disso devem ser criadas no tipo ppk pois iremos utilizar o putty para nos ajudar com este projeto, ao criar um par de chaves elas serão baixadas no seu computador guarde elas pois serão usadas mais tarde neste projeto
+
+   ![alt text](image-7.png)
+
+   ![alt text](image-8.png)
+
+
+   - Um detalhe importante que preciso comentar são sobre os grupos de segurança onde por este projeto ser para fins de aprendizado iremos setar para permitir o tráfego SSH em qualquer lugar 
+
+   ![alt text](image-9.png)
+
+
    - Agora clique em executar a instância
+
+   ![alt text](image-11.png)
+
+
+
+
 2. **Conectar-se à Instância via PuTTY:**
-   - Converta a chave PEM para PPK usando o PuTTYgen.
+   - Agora iremos conectar ao Putty, primeiramente em instâncias precisamos pegar algumas informações, clicando no ID da instância você consegue ver as informações:
+
+   ![alt text](image-13.png)
+
+
+   - Clique em conectar, e vá ate a parte de cliente SSH.
+
+   ![alt text](image-15.png)
+
+   ![alt text](image-16.png)
+
+
    - Configure PuTTY para conectar à instância EC2 utilizando o arquivo PPK.
+
+   
    - Acesse a instância via SSH.
 
 3. **Instalar PostgreSQL no Servidor:**
