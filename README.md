@@ -109,7 +109,7 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
 
    ![alt text](img\image-26.png)
 
-   ![alt text](img\img.png)
+   ![alt text](img.png)
 
    - agora iremos rodar nosso script para inserir os dados do nosso arquivo csv no banco de dados 
 
