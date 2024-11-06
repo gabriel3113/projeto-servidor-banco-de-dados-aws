@@ -35,7 +35,7 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
 
    ![alt text](image-4.png)
 
-   - Você deve escolher um sistema operacional para a instância no caso irei escolher o ubunto porque e além disso escolher um tipo de instância no caso irei escolher a t2.micro que é gratuita
+   - Você deve escolher um sistema operacional para a instância no caso irei escolher o ubunto porque é mais facil de configurar é gratuito após isso deve se  disso deve se escolher um tipo de instância no caso irei escolher a t2.micro que é gratuita
 
    ![alt text](image-5.png)
 
@@ -43,14 +43,14 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
    ![alt text](image-6.png)
 
 
-   - Após isso você deve criar uma par de chaves de login você deve dar um nome para elas , além disso devem ser criadas no tipo ppk pois iremos utilizar o putty para nos ajudar com este projeto, ao criar um par de chaves elas serão baixadas no seu computador guarde elas pois serão usadas mais tarde neste projeto
+   - Após isso você deve criar uma par de chaves de login você deve dar um nome para elas , além disso devem ser criadas no tipo ppk pois iremos utilizar o putty para nos ajudar com este projeto, ao criar um par de chaves elas serão baixadas no seu computador guarde elas pois serão usadas mais tarde
 
    ![alt text](image-7.png)
 
    ![alt text](image-8.png)
 
 
-   - Um detalhe importante que preciso comentar são sobre os grupos de segurança onde por este projeto ser para fins de aprendizado iremos setar para permitir o tráfego SSH em qualquer lugar 
+   - Um detalhe importante que preciso comentar são sobre os grupos de segurança onde por este projeto ser para fins de aprendizado iremos setar para permitir o tráfego SSH de qualquer ip 
 
    ![alt text](image-9.png)
 
@@ -63,7 +63,7 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
 
 
 2. **Conectar-se à Instância via PuTTY:**
-   - Agora iremos conectar ao Putty, primeiramente em instâncias precisamos pegar algumas informações, clicando no ID da instância você consegue ver as informações:
+   - Agora iremos conectar ao Putty, primeiramente em instâncias precisamos pegar algumas informações, clicando no ID da instância onde você consegue ter acesso as informações:
 
    ![alt text](image-13.png)
 
@@ -75,7 +75,7 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
    ![alt text](image-16.png)
 
 
-   - Agora para podermos configurar o putty iremos pegar algumas informações o servidor de dns público , o usuario que é ubunto e a chave de acesso que foi baixada no seu computador durante este processo também será necessária.
+   - Agora para podermos configurar o putty iremos pegar algumas informações como o servidor de dns público , o usuario que é ubunto e a chave de acesso que foi baixada no seu computador durante este processo também será necessária.
 
    ![alt text](image-20.png)
 
