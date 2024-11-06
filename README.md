@@ -35,7 +35,7 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
 
    ![alt text](image-4.png)
 
-   - Você deve escolher um sistema operacional para a instância no caso irei escolher o ubunto porque é mais facil de configurar é gratuito após isso deve se  disso deve se escolher um tipo de instância no caso irei escolher a t2.micro que é gratuita
+   - Você precisa selecionar um sistema operacional para a instância. Neste caso, escolherei o Ubuntu, pois é gratuito e fácil de configurar. Após essa etapa, é necessário definir o tipo de instância; optarei pela t2.micro, que é gratuita e ideal para testes iniciais.
 
    ![alt text](image-5.png)
 
@@ -43,14 +43,14 @@ Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AW
    ![alt text](image-6.png)
 
 
-   - Após isso você deve criar uma par de chaves de login você deve dar um nome para elas , além disso devem ser criadas no tipo ppk pois iremos utilizar o putty para nos ajudar com este projeto, ao criar um par de chaves elas serão baixadas no seu computador guarde elas pois serão usadas mais tarde
+   - Em seguida, crie um par de chaves para login, atribuindo um nome a elas. As chaves devem ser geradas no formato PPK, pois utilizaremos o PuTTY para este projeto. Ao finalizar a criação, as chaves serão baixadas para o seu computador; mantenha-as seguras, pois serão necessárias mais tarde.
 
    ![alt text](image-7.png)
 
    ![alt text](image-8.png)
 
 
-   - Um detalhe importante que preciso comentar são sobre os grupos de segurança onde por este projeto ser para fins de aprendizado iremos setar para permitir o tráfego SSH de qualquer ip 
+   - Um ponto importante a mencionar são os grupos de segurança. Como este projeto é apenas para fins de aprendizado, configuraremos o grupo para permitir o tráfego SSH de qualquer IP. 
 
    ![alt text](image-9.png)
 
