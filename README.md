@@ -1,12 +1,13 @@
 # Projeto: Servidor de Banco de Dados na AWS
 
 ## Descrição
-Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AWS, utilizando instâncias EC2 para provisionamento do servidor. Ferramentas adicionais como PuTTY e DBeaver são empregadas para acesso e gerenciamento do banco de dados.
+Este projeto tem como objetivo hospedar um banco de dados PostgreSQL na nuvem AWS, utilizando instâncias EC2 para provisionamento do servidor. Ferramentas adicionais como PuTTY, DBeaver e Python são empregadas para acesso e gerenciamento do banco de dados.
 
 ## Ferramentas Utilizadas
 - **AWS EC2:** Instâncias na nuvem para hospedar o banco de dados.
 - **PuTTY:** Cliente SSH para acesso remoto seguro ao servidor.
 - **DBeaver:** Ferramenta GUI para administração e interação com o banco PostgreSQL.
+- **Python:** Scripts para enviar os dados de um arquivo csv local para o banco.
 
 ## Como Configurar
 1. **Provisionar Instância EC2:**
